@@ -13,3 +13,21 @@
 .jordan {
     font-size: 3em;
 }
+
+
+.row {
+    display: flex;
+}
+
+#article1{
+    border: 2px dotted blue;
+    flex-basis: 50%;
+    margin: 1em;
+
+}
+
+#article2 {
+    border: 2px dotted red;
+    flex-basis: 50%;
+    margin: 1em;
+}
