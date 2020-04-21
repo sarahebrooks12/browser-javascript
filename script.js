@@ -44,7 +44,7 @@ document.querySelector("#output-container").innerHTML+= `<section>
 const articleTrickField = document.querySelector("#message")
 
 articleTrickField.addEventListener("keyup", function () {
-    articleTrick = articleTrickField.value;
+    const articleTrick = articleTrickField.value;
     document.querySelector("#article1").textContent = articleTrick;
     document.querySelector("#article2").textContent = articleTrick;
 
